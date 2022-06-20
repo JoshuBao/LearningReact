@@ -1,5 +1,5 @@
 # LearningReact
-Projects made to Practice synthesizing Java, React, HTML, CSS
+Projects made to Practice synthesizing JavaScript,JSX, React, HTML, CSS
 
 
 *About
