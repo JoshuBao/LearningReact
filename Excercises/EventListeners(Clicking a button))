@@ -4,11 +4,19 @@ export default function App() {
     function handleClick() {
         console.log("I was clicked!")
     }
+    function handleHover()
+    {
+     console.log("Moused Hovered")   
+    }
+ 
     
     return (
         <div className="container">
-            <img src="https://picsum.photos/640/360" />
+            <img onMouseOver ={handleHover}src="https://picsum.photos/640/360" />
             <button onClick={handleClick}>Click me</button>
         </div>
     )
 }
+
+// react doc with all the diff mouse events
+// https://reactjs.org/docs/events.html#mouse-events
