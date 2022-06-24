@@ -21,3 +21,14 @@ function App() {
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
+
+
+
+
+
+
+
+//React.useState() -- this is called a hook, useState is called a hook
+/* React.useState() declares it
+react state returns and array and a function
+React.useState("default thing of useState");
